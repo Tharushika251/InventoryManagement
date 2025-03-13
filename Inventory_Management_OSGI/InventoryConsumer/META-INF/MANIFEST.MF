@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: InventoryConsumer
+Bundle-SymbolicName: InventoryConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.inventory.consumer.Activator
+Bundle-Vendor: MTIT
+Bundle-RequiredExecutionEnvironment: JavaSE-23
+Automatic-Module-Name: InventoryConsumer
+Import-Package: org.osgi.framework;version="1.3.0", edu.inventory.producer
+Bundle-ActivationPolicy: lazy
